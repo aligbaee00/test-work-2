@@ -1,0 +1,32 @@
+# Ignore Visual Studio working files
+.vs/
+**/*.user
+**/*.suo
+*.userprefs
+
+# VS Code settings (optional)
+.vscode/
+
+# .NET build output
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/TestResults/
+
+# NuGet packages
+*.nupkg
+packages/
+**/packages/*
+!**/packages/build/
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
